@@ -8,7 +8,7 @@ import slide4 from "../Pictures/Themes/4.jpg"
 export default function Slader() {
     return (
         <Carousel >
-            <Carousel.Item  style={{"height" : "600px"}}  >
+            <Carousel.Item  style={{"height" : "90vh"}}  >
                 <img
                 className='d-block w-100'
                 src={slide1}
@@ -19,7 +19,7 @@ export default function Slader() {
                     <p>Клевый чувак</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item  style={{"height" : "600px"}}  >
+            <Carousel.Item  style={{"height" : "90vh"}}  >
                 <img
                 className='d-block w-100'
                 src={slide2}
@@ -30,7 +30,7 @@ export default function Slader() {
                     <p>Клевая чувиха</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item  style={{"height" : "600px"}} >
+            <Carousel.Item  style={{"height" : "90vh"}} >
                 <img
                 className='d-block w-100'
                 src={slide3}
@@ -41,7 +41,7 @@ export default function Slader() {
                     <p>Крутая девченка</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item  style={{"height" : "600px"}} >
+            <Carousel.Item  style={{"height" : "90vh"}} >
                 <img
                 className='d-block w-100'
                 src={slide4}
