@@ -7,7 +7,7 @@ import slide4 from "../Pictures/Themes/4.jpg"
 
 export const Themes = () => (
     <>
-        <Container fluid style={{paddingTop: '2rem', paddingBottom: '2rem'}}>
+        <Container style={{paddingTop: '2rem', paddingBottom: '2rem'}}>
         <Row className="justify-content-md-center">
             <Col md="auto">
                 <Card style={{width: '18rem'}}>
@@ -36,6 +36,18 @@ export const Themes = () => (
             <Col md="auto">
                 <Card style={{width: '18rem'}}>
                     <Card.Img variant="top" src={slide3}/>
+                    <Card.Body>
+                        <Card.Title>Тема1</Card.Title>
+                        <Card.Text>
+                            Краткое содержание темы 1
+                        </Card.Text>
+                        <Button>Перейти к изучению</Button>
+                    </Card.Body>
+                </Card>         
+            </Col>
+            <Col md="auto">
+                <Card style={{width: '18rem'}}>
+                    <Card.Img variant="top" src={slide4}/>
                     <Card.Body>
                         <Card.Title>Тема1</Card.Title>
                         <Card.Text>
